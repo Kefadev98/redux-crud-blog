@@ -1,0 +1,21 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $primaryFont;
+  background-color: $backgroundColor;
+  color: $fontPrimary;
+}
+
+body {
+  min-height: 100vh;
+}
+main {
+  max-width: 400px;
+  margin: auto;
+}
